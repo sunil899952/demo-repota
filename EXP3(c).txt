@@ -1,0 +1,24 @@
+//NAME : SANKET ADSULE
+//ROLL NO : 404C001
+
+//Experiment 3(c): function checking string is palindrome or not
+
+function is_palindrome(str) {
+    // Reverse the string
+    let reverse_str = str.split('').reverse().join('');
+
+    // Check if the reversed string is the same as the original string
+    if (reverse_str === str) {
+        console.log("The passed string is a palindrome.");
+    } else {
+        console.log("The passed string is not a palindrome.");
+    }
+}
+
+let test = "hellolleh";
+is_palindrome(test);
+
+
+//OUTPUT
+
+The passed string is a palindrome.

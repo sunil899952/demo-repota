@@ -1,0 +1,51 @@
+//NAME : SANKET ADSULE
+//ROLL NO : 404C001
+
+
+// program to generate a multiplication table
+
+// take input from the user
+
+const number = parseInt(prompt('Enter an integer: '));
+
+//creating a multiplication table
+
+for(let i = 1; i <= 10; i++) {
+
+    // multiply i with number
+    const result = i * number;
+
+    // display the result
+    console.log(`${number} * ${i} = ${result}`);
+    document.write(`${number} * ${i} = ${result} <br>`);
+}
+
+
+//OUTPUT
+
+
+Enter an integer: 5
+
+5 * 1 = 5
+5 * 1 = 5 <br>
+5 * 2 = 10
+5 * 2 = 10 <br>
+5 * 3 = 15
+5 * 3 = 15 <br>
+5 * 4 = 20
+5 * 4 = 20 <br>
+5 * 5 = 25
+5 * 5 = 25 <br>
+5 * 6 = 30
+5 * 6 = 30 <br>
+5 * 7 = 35
+5 * 7 = 35 <br>
+5 * 8 = 40
+5 * 8 = 40 <br>
+5 * 9 = 45
+5 * 9 = 45 <br>
+5 * 10 = 50
+5 * 10 = 50 <br>
+
+
+

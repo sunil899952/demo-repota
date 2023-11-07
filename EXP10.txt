@@ -1,0 +1,45 @@
+//NAME : SANKET ADSULE
+//ROLL NO : 404C001
+
+
+//Ex:10 Write JavaScript program to study Window/Document properties and methods
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Window and Document Properties</title>
+</head>
+<body>
+    <h1>Window and Document Properties</h1>
+
+    <p><strong>Window Properties:</strong></p>
+    <ul>
+        <li><strong>Inner Width:</strong> <span id="innerWidth"></span></li>
+        <li><strong>Inner Height:</strong> <span id="innerHeight"></span></li>
+        <li><strong>Location:</strong> <span id="location"></span></li>
+    </ul>
+
+    <p><strong>Document Properties:</strong></p>
+    <ul>
+        <li><strong>Title:</strong> <span id="title"></span></li>
+        <li><strong>URL:</strong> <span id="url"></span></li>
+        <li><strong>Last Modified:</strong> <span id="lastModified"></span></li>
+    </ul>
+
+    <script>
+        // Window Properties
+        document.getElementById('innerWidth').textContent = window.innerWidth;
+        document.getElementById('innerHeight').textContent = window.innerHeight;
+        document.getElementById('location').textContent = window.location.href;
+
+        // Document Properties
+        document.getElementById('title').textContent = document.title;
+        document.getElementById('url').textContent = document.URL;
+        document.getElementById('lastModified').textContent = document.lastModified;
+    </script>
+</body>
+</html>
+
+//OUTPUT
+
+
